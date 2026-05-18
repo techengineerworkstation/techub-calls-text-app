@@ -23,6 +23,7 @@ const config: ExpoConfig = {
         "This app needs microphone access for phone calls",
       NSCameraUsageDescription:
         "This app needs camera access for video calls",
+      ITSAppUsesNonExemptEncryption: false,
     },
   },
   android: {
