@@ -37,11 +37,6 @@ const config: ExpoConfig = {
       "android.permission.CAMERA",
     ],
   },
-  web: {
-    bundler: "metro",
-    output: "static",
-    favicon: "./assets/favicon.png",
-  },
   plugins: ["expo-router", "expo-font"],
   experiments: {
     typedRoutes: true,
