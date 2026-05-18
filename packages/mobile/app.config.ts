@@ -3,6 +3,7 @@ import { ExpoConfig } from "expo/config";
 const config: ExpoConfig = {
   name: "TechHub Calls & Text",
   slug: "techub-calls-text",
+  owner: "techengineerworkstation",
   version: "1.0.0",
   orientation: "portrait",
   icon: "./assets/icon.png",
@@ -46,6 +47,9 @@ const config: ExpoConfig = {
   },
   extra: {
     API_URL: process.env.EXPO_PUBLIC_API_URL || "https://techub-calls-text.vercel.app",
+    eas: {
+      projectId: "82139172-58b0-4657-acd7-56bccef546b3",
+    },
   },
 };
 
